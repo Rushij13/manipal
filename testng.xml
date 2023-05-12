@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="Functional" >
+        <classes>
+            <class name="org.example.launchbrowser" />
+            <class name="org.example.mozillalauncher"/>
+            <class name="org.example.Edgelauncher"/>
+        </classes>
+    </test>
+
+</suite>
+
